@@ -11,12 +11,16 @@
       {{ block.super }}
     {% endblock %}
     <!--================Header Menu Area =================-->
+
+
     {% block main %}
+
       <!--================Hero Banner start =================-->
       {% block hero_banner %}
         {{ block.super }}
       {% endblock %}
       <!--================Hero Banner end =================-->
+
 
       <!--================ Blog slider start =================-->
       {% block start_blog %}
@@ -24,21 +28,27 @@
       {% endblock %}
       <!--================ Blog slider end =================-->
 
+
       <!--================ Start Blog Post Area =================-->
       {% block blog_post_area %}
         {{ block.super }}
       {% endblock %}
 
+
       {% block post_siddebar %}
+        {{ block.super }}
       {% endblock %}
+
       <!--================ End Blog Post Area =================-->
     {% endblock %}
+
 
     <!--================ Start Footer Area =================-->
     {% block footer_area %}
       {{ block.super }}
     {% endblock %}
     <!--================ End Footer Area =================-->
+
 
     <script src="{% static 'js/scripts.js' %}"></script>
 
